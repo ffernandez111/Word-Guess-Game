@@ -7,7 +7,7 @@ body {
 }
 
 .title {
-color: blanchedalmond;
+color: darkred;
 }
 
 .thinking-robot {
@@ -20,11 +20,11 @@ color: blanchedalmond;
 }
 
 .logo {
-    color: blanchedalmond;
+    color: darkred;
 }
 
 .start-menu {
-    color: blanchedalmond;
+    color: darkred;
 }
 
 .guess-image {
@@ -37,32 +37,32 @@ color: blanchedalmond;
 
 
 .word {
-    color: blanchedalmond;
+    color: darkred;
 }
 
 #guesses {
-    color: blanchedalmond;
+    color: darkred;
     font-size: 25px;
 }
 
 #wins {
-    color: blanchedalmond;
+    color: darkred;
     font-size: 25px;
 
 }
 
 #losses{
-    color: blanchedalmond;
+    color: darkred;
     font-size: 25px;
 }
 
 .header {
-    color: blanchedalmond;
+    color: darkred;
 }
 }
 
 .scoreboard {
-    color: blanchedalmond;
+    color: darkred;
 }
 
 
