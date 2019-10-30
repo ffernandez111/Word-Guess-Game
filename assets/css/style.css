@@ -1,0 +1,73 @@
+body {
+   background-color: black; 
+   background-image: url("https://www.studyfinds.org/wp-content/uploads/2019/03/AdobeStock_210969565.jpeg");
+   background-repeat: no-repeat, repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.title {
+color: blanchedalmond;
+}
+
+.thinking-robot {
+    size: 10%;
+}
+
+#name {
+    font-size: 35px; 
+    text-align: center;
+}
+
+.logo {
+    color: blanchedalmond;
+}
+
+.start-menu {
+    color: blanchedalmond;
+}
+
+.guess-image {
+    float: right;
+}
+
+#instruction {
+    font-size: 25px;
+}
+
+
+.word {
+    color: blanchedalmond;
+}
+
+#guesses {
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+#wins {
+    color: blanchedalmond;
+    font-size: 25px;
+
+}
+
+#losses{
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+.header {
+    color: blanchedalmond;
+}
+}
+
+.scoreboard {
+    color: blanchedalmond;
+}
+
+
+#footer {
+    background-color: darkred;
+}
+
+

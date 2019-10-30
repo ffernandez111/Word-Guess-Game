@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Guess that word!</title>
+    
+    <title class="title">Guess the word!</title>
+    
+    <!-- Linking CSS -->
+    
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Linking CSS Reset-->
+    
+    <link rel="stylesheet" href="assets/css/reset.css.">
+
+    <!-- Linking jQuery -->
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+
   </head>
   
   <body class="body">
 
-    <script src="assets/javascript/hardmode.js"></script>
-    
+
+    <img class="thinking-robot" src="https://www.studyfinds.org/wp-content/uploads/2019/03/AdobeStock_210969565.jpeg" alt="">
     <header class="header">
       
       <div class="logo">
-        <H1 id="name">Guess That Word!</H1>
+        <H1 id="name">Guess The Word!</H1>
       </div>
 
     </header>
+    
+    <br>
+    <br>
+
+    <img class="guess-image" src="assets/images/guess.jpg" class="auth-image" alt="guess">
+
+
 
     <div class="start-menu">
       <p id="instruction">Push any key to begin the game</p>
@@ -26,10 +50,16 @@
 
     <br>
 
+    <div class="word">
+      "--------------------"
+    </div>
+
+    <br>
+
     <div class="scoreboard">
-      <p># of guesses left</p>
-      <p># of wins</p>
-      <p># of losses</p>
+      <p id="guesses"># of guesses left:</p>
+      <p id="wins"># of wins:</p>
+      <p id="losses"># of losses:</p>
     </div>
 
 
@@ -38,7 +68,11 @@
 
 
 
-
+    <footer id="footer">
+        <div class="container">
+           
+        </div>
+      </footer>
 
 
 
