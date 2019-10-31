@@ -16,7 +16,7 @@ color: darkred;
 
 #name {
     font-size: 35px; 
-    text-align: center;
+    float: left;
 }
 
 .logo {
@@ -35,6 +35,9 @@ color: darkred;
     font-size: 25px;
 }
 
+.clear {
+    clear: both;
+}
 
 .word {
     color: darkred;
@@ -59,7 +62,7 @@ color: darkred;
 .header {
     color: darkred;
 }
-}
+
 
 .scoreboard {
     color: darkred;
