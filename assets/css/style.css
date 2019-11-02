@@ -19,6 +19,11 @@ color: darkred;
     float: left;
 }
 
+#blankWord {
+    color: darkred;
+   
+}
+
 .logo {
     color: darkred;
 }
