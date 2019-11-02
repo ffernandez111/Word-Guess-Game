@@ -38,6 +38,7 @@ color: darkred;
 
 #instruction {
     font-size: 25px;
+    font-weight: bold;
 }
 
 .clear {
@@ -51,17 +52,19 @@ color: darkred;
 #guesses {
     color: darkred;
     font-size: 25px;
+    font-weight: bold;
 }
 
 #wins {
     color: darkred;
     font-size: 25px;
-
+    font-weight: bold;
 }
 
 #losses{
     color: darkred;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .header {
