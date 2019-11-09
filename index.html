@@ -1,86 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title class="title">Guess the word!</title>
-    
-    <!-- Linking CSS Reset-->
-    
-    <!-- <link rel="stylesheet" href="assets/css/reset.css."> -->
-    
-    <!-- Linking CSS -->
-    
+    <title>My Word Guess Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    
-
-    <!-- Linking jQuery -->
-    
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-    
-    <script class="js"></script>
-
-    <script src="assets/javascript/java.js"></script>
+    <link rel="stylesheet" href="assets/css/nice80sHeader.css">
 
   </head>
-  
-  <body class="body">
-
-
-    <header class="header">
-      
-      <div class="logo">
-        <H1 id="name">Guess The Word!</H1>
-      </div>
-
-    </header>
-   
-    <br>
-    <br>
-
-    <img class="guess-image" src="assets/images/guess.jpg" class="auth-image" alt="guess">
-    <div class="clear"></div>
-
-
-    <div class="start-menu">
-      <p id="instruction">Push any key to begin the game</p>
+  <body>    
+    <div id="wrapper">
+      <h1 class="chrome">WORD GUESS</h1>
+      <h3 class="dreams">80s style</h3>
     </div>
 
-    <br>
-
-   
-    <div id = blankWord></div>
-   
-    <br>
-
-    <div class="scoreboard">
-      <p id="guesses"># of guesses left:</p>
-      <p id="wins"># of wins:</p>
-      <p id="losses"># of losses:</p>
-    </div>
-
-
-
-
-
-
-
-    <footer id="footer">
-        <div class="container">
-           
+    <div id="container">
+      <h2 id="music"></h2>
+      <!-- The div where our band image will be shown. -->
+      <div id="band-div"><img src="assets/images/hangman-boardgame.jpg" alt="hangman board game from 80s"></div>
+      <div id="game-section">
+        <p>Press any key to get started!</p>
+        <div>
+          <h3 class="section-title">Wins</h3>
+          <!-- The div where our wins will be shown. -->
+          <div id="wins"></div>
         </div>
-      </footer>
+        <div id="current-word-section">
+          <h3 class="section-title">Current Word</h3>
+          <!-- The div where our current word (and guessing progress) will be shown. -->
+          <div id="current-word"></div>
+        </div>
+        <div id="guesses-remaining-section">
+          <h3 class="section-title">Number of Guesses Remaining</h3>
+          <!-- The div where our remaining guesses will be shown. -->
+          <div id="guesses-remaining"></div>
+        </div>
+        <div id="guessed-letters-section">
+          <h3 class="section-title">Letters Already Guessed</h3>
+          <!-- The div where our guesses letters will be shown. -->
+          <div id="guessed-letters"></div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
+    <!-- Linking to our JavaScript file. -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
+</html>
